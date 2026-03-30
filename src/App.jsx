@@ -65,8 +65,8 @@ export default function App() {
       {/* Main Section & Toggling */}
       <section className="py-16 max-w-7xl mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold mb-3">Premium Digital Tools</h2>
-          <p className="text-slate-500 mb-6">Choose from our curated collection of premium digital products.</p>
+          <h2 className="text-5xl font-bold mb-3">Premium Digital Tools</h2>
+          <p className="text-slate-500 mb-6 text-[16px]">Choose from our curated collection of premium digital products designed <br></br> to boost your productivity and creativity.</p>
           
           {/* Toggle Buttons */}
           <div className="inline-flex border-2 border-primary rounded-full p-1 gap-2">
@@ -85,7 +85,7 @@ export default function App() {
 
         {/* Product Grid View */}
         {activeTab === 'products' && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {productsData.length > 0 ? (
               productsData.map(product => (
                 <ProductCard key={product.id} product={product} onAddToCart={handleAddToCart} />
