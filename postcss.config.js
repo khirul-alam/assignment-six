@@ -1,6 +1,7 @@
+
 export default {
   plugins: {
-    tailwindcss: {},
+    "@tailwindcss/postcss": {}, // এখানে @tailwindcss/postcss ব্যবহার করতে হবে
     autoprefixer: {},
   },
 }

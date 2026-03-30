@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui"; /* v4 এ প্লাগইন এভাবেই যোগ করতে হয় */
 
 @theme {
   --color-primary: #7c3aed;

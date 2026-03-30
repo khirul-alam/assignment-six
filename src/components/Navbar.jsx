@@ -1,6 +1,6 @@
 export default function Navbar({ cartCount }) {
   return (
-    <div className="navbar bg-white border-b px-4 md:px-12 sticky top-0 z-50">
+    <div className="navbar bg-white border-b px-4 md:px-12 sticky top-0 z-50 container mx-auto">
       <div className="navbar-start">
         <a className="text-3xl font-bold text-primary cursor-pointer">DigiTools</a>
       </div>

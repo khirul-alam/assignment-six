@@ -1,4 +1,5 @@
-@type {import('tailwindcss').Config} 
+/** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui" // require এর বদলে import ব্যবহার করা ভালো
 
 export default {
   content: [
@@ -8,9 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#7c3aed", 
+        primary: "#7c3aed", // আপনার কাস্টম ভায়োলেট কালার
+        bannerBtn: "#E7FE29", // আপনার প্রজেক্টের সেই হলুদ কালারটি এখানে সেট করে রাখতে পারেন
       }
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui],
 }
