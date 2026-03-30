@@ -7,20 +7,20 @@ export default function Stats() {
         
         {/* 1st status */}
         <div className="border-b md:border-b-0 md:border-r border-white/20 pb-6 md:pb-0">
-          <h2 className="text-4xl font-bold mb-2">10K+</h2>
+          <h2 className="text-4xl font-bold mb-2">50K+</h2>
           <p className="text-white/80 font-medium">Active Users</p>
         </div>
 
         {/*2st status */}
         <div className="border-b md:border-b-0 md:border-r border-white/20 pb-6 md:pb-0">
-          <h2 className="text-4xl font-bold mb-2">500+</h2>
-          <p className="text-white/80 font-medium">Digital Products</p>
+          <h2 className="text-4xl font-bold mb-2">200+</h2>
+          <p className="text-white/80 font-medium">Premium Tools</p>
         </div>
 
         {/* 3st status */}
         <div>
-          <h2 className="text-4xl font-bold mb-2">$1M+</h2>
-          <p className="text-white/80 font-medium">Transactions</p>
+          <h2 className="text-4xl font-bold mb-2">4.9</h2>
+          <p className="text-white/80 font-medium">Rating</p>
         </div>
 
       </div>
