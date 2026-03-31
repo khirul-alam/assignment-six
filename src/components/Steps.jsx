@@ -16,7 +16,7 @@ export default function Steps() {
           </p>
         </div>
 
-         */}
+         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           
          
@@ -63,7 +63,7 @@ export default function Steps() {
 
           
           <div className="card bg-base-100 w-full max-w-sm shadow-sm relative border border-slate-100 hover:shadow-md transition-all">
-            
+           
             <div className="absolute top-5 right-5 w-10 h-10 bg-[#7c3aed] text-white text-sm font-bold rounded-full flex justify-center items-center shadow-md">
               03
             </div>
