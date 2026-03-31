@@ -9,6 +9,7 @@ import Stats from './components/Stats.jsx';
 import ProductCard from './components/ProductCard';
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
+import CTA from './components/CTA.jsx';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -142,6 +143,7 @@ export default function App() {
 
       <Steps />
       <Pricing />
+      <CTA />
       <Footer />
     </div>
   );
