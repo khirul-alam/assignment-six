@@ -1,16 +1,30 @@
-# React + Vite
+## Project Name: DigiTools - Premium Digital Marketplace
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description:
 
-Currently, two official plugins are available:
+**DigiTools** provides a seamless, modern, and highly interactive experience for users looking to discover and acquire high-quality digital assets. The platform features an ultra-sleek layout with smooth hover animations and fully optimized dark/light accessibility. Designed focusing on aesthetics, it guides the users flawlessly from discovering products to purchasing and utilizing them in minutes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Technologies Used:
+ HTML
+ CSS
+ React.js
+ Tailwind CSS
+ daisyUI
+ React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Key Features:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 1. Interactive Multi-Step Journey
+The homepage provides a visually stunning 3-step guide (`Create Account` -> `Choose Products` -> `Start Creating`) with custom positioning indicator badges positioned on the top right.
+
+ 2. Beautiful Pricing Matrix & Smart Highlights
+A clean grid layout of dynamic plans featuring a custom-themed, scaled-up "MOST POPULAR" card. It drives immediate visual hierarchy making decision-making incredibly fast for users.
+
+ 3. High-Conversion Vibrant CTA Section
+Positioned at the bottom is an aesthetic, round-pilled border glass-morphic Call To Action with rich purple radial gradients prompting swift user onboarding.
+

@@ -1,3 +1,4 @@
+import { FiShoppingCart } from "react-icons/fi";
 export default function Navbar({ cartCount }) {
   return (
     <div className="navbar bg-white border-b px-4 md:px-12 sticky top-0 z-50 container mx-auto">
@@ -5,7 +6,7 @@ export default function Navbar({ cartCount }) {
         <a className="text-3xl font-bold text-primary cursor-pointer">DigiTools</a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 font-medium text-slate-600 gap-2">
+        <ul className="menu menu-horizontal px-1 font-medium text-slate-500 gap-2">
           <li><a>Products</a></li>
           <li><a>Features</a></li>
           <li><a>Pricing</a></li>
@@ -13,10 +14,10 @@ export default function Navbar({ cartCount }) {
           <li><a>FAQ</a></li>
         </ul>
       </div>
-      <div className="navbar-end gap-4">
+      <div className="navbar-end gap-1 flex justify-between items-center">
         {/* Cart Icon */}
-        <div className="relative cursor-pointer p-2">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+        <div className="relative cursor-pointer p-2 ml-2.5">
+          <FiShoppingCart className="h-6 w-6 text-slate-700 hover:text-primary transition-colors" />
           {cartCount > 0 && (
             <span className="badge badge-primary badge-sm absolute top-0 right-0 text-white">{cartCount}</span>
           )}
