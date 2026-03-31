@@ -9,11 +9,13 @@
 
 ## Technologies Used:
  HTML
- CSS
  React.js
  Tailwind CSS
  daisyUI
  React Icons
+ Tailwind CSS, DaisyUI
+ JavaScript (ES6+)
+ JSON (for product data)
 
 ---
 

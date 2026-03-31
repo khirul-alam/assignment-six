@@ -1,4 +1,4 @@
-// import React from "react";
+
 import { FaUserCircle } from "react-icons/fa";
 import { AiFillProduct } from "react-icons/ai";
 import { LiaRocketSolid } from "react-icons/lia";
@@ -8,7 +8,7 @@ export default function Steps() {
     <section className="py-16 bg-slate-50">
       <div className="container mx-auto px-4 md:px-8">
         
-        {/* টপ হেডিং */}
+       
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold mb-3">Get Started in 3 Steps</h2>
           <p className="text-slate-500 text-[16px]">
@@ -16,12 +16,12 @@ export default function Steps() {
           </p>
         </div>
 
-        {/* কার্ড এরিয়া (ফ্লেক্স থেকে গ্রিড করা হয়েছে যেন মোবাইলেও সুন্দর দেখায়) */}
+         */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           
-          {/* 🟢 কার্ড ০১ */}
+         
           <div className="card bg-base-100 w-full max-w-sm shadow-sm relative border border-slate-100 hover:shadow-md transition-all">
-            {/* ছোট সার্কেল বা ব্যাজ */}
+           
             <div className="absolute top-5 right-5 w-10 h-10 bg-[#7c3aed] text-white text-sm font-bold rounded-full flex justify-center items-center shadow-md">
               01
             </div>
@@ -40,9 +40,9 @@ export default function Steps() {
             </div>
           </div>
 
-          {/* 🔵 কার্ড ০২ */}
+          
           <div className="card bg-base-100 w-full max-w-sm shadow-sm relative border border-slate-100 hover:shadow-md transition-all">
-            {/* ছোট সার্কেল বা ব্যাজ */}
+           
             <div className="absolute top-5 right-5 w-10 h-10 bg-[#7c3aed] text-white text-sm font-bold rounded-full flex justify-center items-center shadow-md">
               02
             </div>
@@ -61,9 +61,9 @@ export default function Steps() {
             </div>
           </div>
 
-          {/* 🟣 কার্ড ০৩ */}
+          
           <div className="card bg-base-100 w-full max-w-sm shadow-sm relative border border-slate-100 hover:shadow-md transition-all">
-            {/* ছোট সার্কেল বা ব্যাজ */}
+            
             <div className="absolute top-5 right-5 w-10 h-10 bg-[#7c3aed] text-white text-sm font-bold rounded-full flex justify-center items-center shadow-md">
               03
             </div>

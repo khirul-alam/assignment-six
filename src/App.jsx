@@ -13,8 +13,8 @@ import CTA from './components/CTA.jsx';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [productsData, setProductsData] = useState([]); // ডাটা রাখার জন্য স্টেট
-  const [activeTab, setActiveTab] = useState('products'); // 'products' or 'cart'
+  const [productsData, setProductsData] = useState([]); 
+  const [activeTab, setActiveTab] = useState('products'); 
   const [cart, setCart] = useState([]);
 
   // ১. public ফোল্ডার থেকে ডাটা ফেচ (Fetch) করা

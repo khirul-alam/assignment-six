@@ -28,7 +28,7 @@ export default function Banner() {
         </div>
       </div>
       <div className="rounded-2xl overflow-hidden shadow-lg hidden md:block">
-        {/* সাধারণ ইমেজ ট্যাগ */}
+       
         <img
           src={bannerImg}
           alt="BPL Auction Banner"
