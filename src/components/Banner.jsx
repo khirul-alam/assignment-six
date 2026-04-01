@@ -1,6 +1,6 @@
 import React from "react";
 import { TbCircleDotFilled } from "react-icons/tb";
-import bannerImg from "../assets/banner.png";
+import bannerImg from "../assets/Banner.png";
 import { CiPlay1 } from "react-icons/ci";
 
 export default function Banner() {

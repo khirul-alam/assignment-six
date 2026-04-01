@@ -5,11 +5,11 @@ import 'react-toastify/dist/ReactToastify.css';
 // Sub-components mapped out below
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
-import Stats from './components/Stats.jsx';
+import Stats from './components/Stats';
 import ProductCard from './components/ProductCard';
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
-import CTA from './components/CTA.jsx';
+import CTA from './components/CTA';
 import Footer from './components/Footer';
 
 export default function App() {
